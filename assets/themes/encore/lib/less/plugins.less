@@ -1,0 +1,115 @@
+/*
+Plugins
+---------------------------------------------------------------------------------------------------- */
+
+/* Genesis eNews Extended
+--------------------------------------------- */
+
+.enews-widget {
+  color: #999;
+}
+
+.enews-widget .widget-title {
+  color: @white;
+}
+
+.enews-widget input {
+  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
+}
+
+.enews-widget input:focus {
+  border: 1px solid #ddd;
+}
+
+.enews-widget input[type="submit"] {
+  background-color: #f15123;
+  color: @white;
+  margin: 0;
+  width: 100%;
+}
+
+.enews-widget input:hover[type="submit"] {
+  background-color: @white;
+  color: @dkgrey;
+}
+
+/* Genesis Latest Tweets
+--------------------------------------------- */
+
+.latest-tweets ul li {
+  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
+}
+
+/* Gravity Forms
+--------------------------------------------- */
+
+div.gform_wrapper input[type="email"],
+div.gform_wrapper input[type="text"],
+div.gform_wrapper textarea,
+div.gform_wrapper .ginput_complex label {
+  padding: 2px;
+  padding: 0.2rem;
+}
+
+div.gform_wrapper .ginput_complex label {
+  padding: 0;
+}
+
+div.gform_wrapper li,
+div.gform_wrapper form li {
+  margin: 16px 0 0;
+  margin: 1.6rem 0 0;
+}
+
+div.gform_wrapper .gform_body .gfield{
+  padding: 0.5em;
+  &.even{background-color: @offwhite;}
+  &.odd{}
+  .ginput_container{
+    .gfield_radio{
+      li{
+        display: inline-block;
+        min-width: 16%;
+        input,label{
+          text-align: center;
+          display: block;
+          margin: 1px auto;
+          float: none;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+div.gform_wrapper .gform_footer input[type="submit"] {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+/* Jetpack
+--------------------------------------------- */
+
+img#wpstats {
+  display: none;
+}
+
+.gfield{
+  table.gsurvey-likert{
+    border: 0;
+    tbody{
+      border:0;
+      tr{
+        border: 0;
+        td{
+          border: 0;
+          &.gsurvey-likert-choice-label{
+            background: none;
+          }
+        }
+      }
+    }
+  }
+}

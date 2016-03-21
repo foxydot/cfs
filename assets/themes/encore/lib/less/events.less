@@ -1,0 +1,90 @@
+@import 'mixins';
+.post-type-archive-event{
+  .panel-group{
+    margin-bottom: 3rem;
+    .panel{
+        border-radius: 0;
+        margin: 0;
+        border: 0;
+      .panel-heading{
+        background-color: lighten(@medgrey,10%);;
+        border-radius: 0;
+        .panel-title{
+          a{
+          .customheader(2.2);
+          font-weight: 300;
+          color: @blue;
+          line-height: 1.25;
+          }
+          a:hover, a:active, a:focus{
+            outline: none;
+            text-decoration: none;
+          }
+          a:before{
+            .fontawesome;
+            content: '\f107';
+            padding-right: 1rem;
+          }
+        }
+      }
+      .panel-collapse{
+        .panel-body{
+          article{
+            margin: 0;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid @vltgrey;
+            .entry-header{
+               display: none;
+            }
+            .entry-content{
+              .event-date{
+                padding-right: 1rem;
+                color: @blue;
+                text-align: center;
+                .day{
+                  .customheader(3.6);
+                  line-height: 1;
+                }
+                .month{
+                  .customheader(1.4);
+                  text-transform: uppercase;
+                  letter-spacing: 0.25rem;
+                }
+              }
+              .entry-title{
+                  .customheader(1.8);
+                  color: @blue;
+                  font-weight: 300;
+                  text-transform: uppercase;
+                  margin: 0;
+              }
+              .event-venue{
+                
+              }
+            }
+          }
+          article.last-child{
+            border:0;
+          }
+          article:after{
+            .msd-clearfix;
+          }
+        }
+      }
+    }
+    .panel.even{
+      .panel-heading{
+        background-color: lighten(@medgrey,20%);
+      }
+    }
+    .panel.in{
+      .panel-heading{
+        .panel-title{
+          a:before{
+            content: '\f106';
+          }
+        }
+      }
+    }
+  }
+}

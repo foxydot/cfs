@@ -1,0 +1,163 @@
+/*
+Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+  .arrow-up(@blue);
+  border-top: 8px solid @blue;
+  background-color: @offwhite;
+  background-image: url(../img/demo-bkg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: @dkgrey;
+  clear: both;
+  padding: 0;
+  a {
+    color: @dkgrey;
+  }
+  
+  a:hover {
+    color: @mdgrey;
+  }
+  
+  .widget {
+    margin: 0 auto;
+    float: none;
+    clear: both;
+  }
+  
+  .widget-title {
+    font-size: 2.8rem;
+    font-weight: 300;
+  }
+  
+  li {
+    list-style-type: none;
+    margin-bottom: 6px;
+    margin-bottom: 0.6rem;
+    word-wrap: break-word;
+  }
+  
+  .connected-text{
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .connected-form{
+    input, textarea{
+      background-color: @white;
+      border: 1px solid @vltgrey;
+      padding: 1rem !important;
+    }
+    ::-webkit-input-placeholder {
+   color: @ltgrey;
+    }
+    
+    :-moz-placeholder { /* Firefox 18- */
+       color: @ltgrey;  
+    }
+    
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: @ltgrey;  
+    }
+    
+    :-ms-input-placeholder {  
+       color: @ltgrey;  
+    }
+    input[type="submit"],input[type="button"],a.button{
+      .button(@blue);
+    }
+  }
+  .align-right{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 1.4rem;
+    .connected-bizname{
+      font-weight: 700;
+    }
+  }
+  h3, h3.gform_title{
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    margin: 10px 0 6px;
+  }
+  .connected-address{
+    span.msdsocial_street{
+      display: block;
+    }
+  }  
+  .connected-social{
+    .social-media{
+      float: right;
+      a.fa{
+        background: none;
+        border: 1px solid lighten(@blue,50%);
+        border-radius: 100%;
+        margin: 10px;
+        height: 50px;
+        width: 50px;
+        font-size: 3rem;
+        line-height: 1.6;
+      }
+      a.fa.last-child{
+        margin-right: 0;
+      }
+      a.fa:hover{
+        border-color: darken(@blue,10%);
+      }
+          
+       a.fa-facebook:hover{
+         background-color:@facebook;
+       }
+       a.fa-twitter:hover{
+         background-color:@twitter;
+       }
+       a.fa-pinterest:hover{
+         background-color:@pinterest;
+       }
+       a.fa-google-plus:hover{
+         background-color:@google;
+       }
+       a.fa-linkedin:hover{
+         background-color:@linkedin;
+       }
+       a.fa-instagram:hover{
+         background-color:@instagram;
+       }
+       a.fa-tumblr:hover{
+         background-color:@tumblr;
+       }
+       a.fa-reddit:hover{
+         background-color:@reddit;
+       }
+       a.fa-flickr:hover{
+         background-color:@flickr;
+       }
+       a.fa-youtube:hover{
+         background-color:@youtube;
+       }
+       a.fa-vimeo-square:hover{
+         background-color:@vimeo;
+       }
+       a.fa-vine:hover{
+         background-color:@vine;
+       }
+       a.fa-share-alt:hover{
+         background-color:@sharethis;
+       }
+       a.fa-envelope:hover{
+         background-color:@contact;
+       }
+       a.fa-rss:hover{
+         background-color:@rss;
+       }
+    }
+  }
+  .search-form input:focus {
+    border: 0 solid #ddd;
+  }
+  
+}

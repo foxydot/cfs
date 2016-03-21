@@ -1,0 +1,163 @@
+.pre-header{
+  .clearfix;
+  .connected-social{
+    .social-media{
+      float: right;
+      a.fa{
+        background: none;
+        color: @vltgrey;
+        height: auto;
+        line-height: inherit;
+      }
+      a.fa:hover{
+        line-height:inherit;
+        height: auto;
+      }
+      a.fa.last-child{
+        margin-right: 0;
+      }
+          
+       a.fa-facebook:hover{
+         color:@facebook;
+       }
+       a.fa-twitter:hover{
+         color:@twitter;
+       }
+       a.fa-pinterest:hover{
+         color:@pinterest;
+       }
+       a.fa-google-plus:hover{
+         color:@google;
+       }
+       a.fa-linkedin:hover{
+         color:@linkedin;
+       }
+       a.fa-instagram:hover{
+         color:@instagram;
+       }
+       a.fa-tumblr:hover{
+         color:@tumblr;
+       }
+       a.fa-reddit:hover{
+         color:@reddit;
+       }
+       a.fa-flickr:hover{
+         color:@flickr;
+       }
+       a.fa-youtube:hover{
+         color:@youtube;
+       }
+       a.fa-vimeo-square:hover{
+         color:@vimeo;
+       }
+       a.fa-vine:hover{
+         color:@vine;
+       }
+       a.fa-share-alt:hover{
+         color:@sharethis;
+       }
+       a.fa-envelope:hover{
+         color:@contact;
+       }
+       a.fa-rss:hover{
+         color:@rss;
+       }
+    }
+  }
+}
+
+.breadcrumb{
+  a.first-child{
+    .fontawesome;
+  }
+}
+.page-title-area{
+  .arrow-down(@blue);
+  background-color: @blue;
+  .entry-title{
+      .customheader(3.6);
+      text-align: center;
+      text-transform: uppercase;
+      color: @white;
+      margin-bottom: 0;
+  }
+}
+
+#team-members{
+  margin-left: -11px;
+  margin-right: -11px;
+  .team-member{
+    margin: 10px;
+    text-align: center;
+    .info{
+      margin: 20px 0 50px 0;
+      h4{
+        font-size: 1.2rem;
+        color: @dkgrey;
+        font-weight: 600;
+      }
+      h5{
+        font-size: 1.2rem;
+        color: @orange;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.single-team_member{
+  .headshot{
+      text-align: center;
+    .headshot-lg{
+      margin-bottom: 20px;
+    }
+    .entry-title{
+      font-weight: 700;
+      font-size: 2.4rem;
+      color: @dkgrey;
+    }
+    h4{
+        font-size: 1.2rem;
+        color: @dkgrey;
+        font-weight: 600;
+      }
+    h5{
+      font-size: 1.2rem;
+      color: @orange;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+  .entry-content .bio{
+    h4{
+      font-size: 1.6rem;
+      color: @orange;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+  }
+}
+.msd-fa, .msd-icon{
+  &.block{
+    display: block;
+    &:before{
+    margin: 0 auto;
+      display: block;
+    }
+  }
+  &.circle, &.square{
+    &:before{
+      background: @blue;
+      color: @white;
+      height: 2.4em;
+      width: 2.4em;
+      text-align: center;
+      padding: 0.7em 0;
+    }
+  }
+  &.circle{
+    &:before{
+      border-radius: 50%;
+    }
+  }
+}

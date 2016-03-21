@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".header-image .site-title a").css("background-size","contain");e(".no-csscolumns .footer-widgets-1 .menu").columnize({columns:3})});

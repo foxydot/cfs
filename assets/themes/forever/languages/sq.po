@@ -1,0 +1,323 @@
+# Translation of Forever in Albanian
+# This file is distributed under the same license as the Forever package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-01-01 04:01:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Forever\n"
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/forever/style.css
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/forever/guestbook.php
+msgid "Guestbook"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/forever/nosidebar-page.php
+msgid "Full Width, No Sidebar"
+msgstr "Gjerësi e Plotë, Pa Anështyllë"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/forever/style.css
+msgid "The Forever theme makes it easy to wrap your wedding up in a neat little package with WordPress. You can show off every one of your best photos and highlight each important detail leading up to the big day and beyond."
+msgstr ""
+
+#: tag.php:18
+msgid "Tag Archives: %s"
+msgstr "Arkiva Etiketash: %s"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:10 searchform.php:11 searchform.php:12
+msgid "Search"
+msgstr "Kërko"
+
+#: search.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Na ndjeni, por nuk u përputh gjë me kriterin tuaj të kërkimit. Ju lutemi, riprovoni me ndonjë fjalëkyç tjetër."
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: masthead.php:25
+msgid "Main menu"
+msgstr "Menuja kryesore"
+
+#: masthead.php:26
+msgid "Skip to content"
+msgstr "Hidhu te lënda"
+
+#: inc/theme-options.php:127
+msgid "%s Theme Options"
+msgstr "Mundësi Teme %s"
+
+#: inc/theme-options.php:103
+msgid "Default color: %s"
+msgstr "Ngjyrë parazgjedhje: %s"
+
+#: inc/theme-options.php:115
+msgid "Show four of your latest posts in columns on your blog page."
+msgstr ""
+
+#: inc/theme-options.php:100
+msgid "Select a Color"
+msgstr "Përzgjidhni Ngjyrë"
+
+#: inc/theme-options.php:44
+msgid "Posts In Columns"
+msgstr "Postime Në Shtylla"
+
+#: inc/theme-options.php:61 inc/theme-options.php:62
+msgid "Theme Options"
+msgstr "Mundësi Teme"
+
+#: inc/theme-options.php:43
+msgid "Link Color"
+msgstr "Ngjyrë Lidhjesh"
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Pasuesi &rarr;"
+
+#: image.php:23
+msgid "Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Botuar më <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> sa <a href=\"%3$s\" title=\"Lidhje te figura në madhësi të plotë\">%4$s &times; %5$s</a> te <a href=\"%6$s\" title=\"Kthehuni te %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "faqja I mëparshmi"
+
+#: functions.php:624
+msgid "Page %s"
+msgstr "Faqe %s"
+
+#: functions.php:378
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"sep\">Postuar më </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> <span class=\"sep\"> nga </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: functions.php:384
+msgid "View all posts by %s"
+msgstr "Shihni tërë postimet nga %s"
+
+#. translators: 1: date, 2: time
+#: functions.php:351
+msgid "%1$s at %2$s"
+msgstr "%1$s te %2$s"
+
+#: functions.php:343
+msgid "Your comment is awaiting moderation."
+msgstr "Komenti juaj po pret moderimin."
+
+#: functions.php:324
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: functions.php:299
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Postime më të reja <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:295
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Postime më të vjetra"
+
+#: functions.php:290
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: functions.php:289
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: functions.php:285
+msgid "Post navigation"
+msgstr "Lëvizje te postimet"
+
+#: functions.php:234 functions.php:244 functions.php:254 functions.php:264
+msgid "An optional footer widget area."
+msgstr ""
+
+#: functions.php:243
+msgid "Footer Widget Area Two"
+msgstr "Fusha Dy Widget-i Fundfaqeje"
+
+#: functions.php:253
+msgid "Footer Widget Area Three"
+msgstr "Fusha Tre Widget-i Fundfaqeje"
+
+#: functions.php:263
+msgid "Footer Widget Area Four"
+msgstr "Fusha Katër Widget-esh Fundfaqeje"
+
+#: functions.php:233
+msgid "Footer Widget Area One"
+msgstr "Fusha Një Widget-i Fundfaqeje"
+
+#: functions.php:224
+msgid "Sidebar"
+msgstr "Anështyllë"
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Menuja Parësore"
+
+#: content-single.php:23 content.php:29 footer.php:38 functions.php:188
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vazhdoni leximin <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-gallery.php:115 content-image.php:96 content-page.php:20
+#: content-single.php:59 content.php:65 functions.php:324 functions.php:353
+#: image.php:33
+msgid "Edit"
+msgstr "Përpunoni"
+
+#: content-gallery.php:110 content-image.php:91 content-single.php:54
+#: content.php:60
+msgid "Tagged %1$s"
+msgstr "Etiketuar si %1$s"
+
+#: content-gallery.php:102 content-image.php:83 content-single.php:45
+#: content.php:52
+msgid "Posted in %1$s"
+msgstr "Postuar te %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-gallery.php:88 content-gallery.php:91 content-image.php:67
+#: content-image.php:70 content-single.php:29 content-single.php:32
+#: content.php:36 content.php:39
+msgid ", "
+msgstr ", "
+
+#: content-gallery.php:70 content-gallery.php:73 content-image.php:52
+#: content-page.php:17 content-single.php:24 content.php:31 image.php:85
+msgid "Pages:"
+msgstr "Faqe:"
+
+#: content-gallery.php:60 content-image.php:15 index.php:72 recent-posts.php:38
+msgid "Permalink to %s"
+msgstr "Permalidhje te %s"
+
+#: content-gallery.php:59
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Kjo galeri përmban <a %1$s>%2$s foto</a>."
+msgstr[1] "Kjo galeri përmban <a %1$s>%2$s foto</a>."
+
+#: content-gallery.php:20 content-image.php:44 content-single.php:18
+#: content.php:18
+msgid "1"
+msgstr "1"
+
+#: content-gallery.php:20 content-image.php:44 content-single.php:18
+#: content.php:18
+msgid "%"
+msgstr "%"
+
+#: comments.php:86
+msgid "Sign Our Guestbook"
+msgstr "Nënshkruani te Libri Ynë i Vizitorëve"
+
+#: content-gallery.php:20 content-image.php:44 content-single.php:18
+#: content.php:18
+msgid "0"
+msgstr "0"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Komentet janë mbyllur."
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Komentet Më të Reja &rarr;"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentet Më të Vjetra"
+
+#: comments.php:32
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Lëvizje te komentet"
+
+#: comments.php:16
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Ky postim mbrohet me fjalëkalim. Për të parë komentet, jepni fjalëkalimin."
+
+#: colophon.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Temë: %1$s nga %2$s."
+
+#: colophon.php:16
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
+#: colophon.php:16
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Platformë Semantike Publikimesh Personale"
+
+#: category.php:18
+msgid "Category Archives: %s"
+msgstr "Arkiva Kategorie: %s"
+
+#: author.php:27
+msgid "Author Archives: %s"
+msgstr "Arkiva Autori: %s"
+
+#: archive.php:64 author.php:63 category.php:53 index.php:197 tag.php:55
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se nuk qemë në gjendje të gjenim ç&#8217;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#: archive.php:60 author.php:59 category.php:49 index.php:193 search.php:35
+#: tag.php:51
+msgid "Nothing Found"
+msgstr "Nuk u Gjet Gjë"
+
+#: archive.php:31 sidebar.php:18
+msgid "Archives"
+msgstr "Arkiva"
+
+#: archive.php:29
+msgid "Yearly Archives: %s"
+msgstr "Arkiva Vjetorë: %s"
+
+#: archive.php:27
+msgid "Monthly Archives: %s"
+msgstr "Arkiva Mujorë: %s"
+
+#: archive.php:25
+msgid "Daily Archives: %s"
+msgstr "Arkiva Ditorë: %s"
+
+#. translators: %1$s: smilie
+#: 404.php:35
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Provoni të shihni arkivat mujorë. %1$s"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Perhaps it <em>was</em> there but now it&rsquo;s gone. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Kategoritë Më të Përdorura"
+
+#: 404.php:16
+msgid "Hi there. You seem to be lost."
+msgstr ""

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Sceptica Black";
+  src: url("../fonts/glen_jan_-_sceptica-black-webfont.eot");
+  src: url("../fonts/glen_jan_-_sceptica-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/glen_jan_-_sceptica-black-webfont.woff") format("woff"), url("../fonts/glen_jan_-_sceptica-black-webfont.ttf") format("truetype"), url("../fonts/glen_jan_-_sceptica-black-webfont.svg#adex") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sceptica";
+  src: url("../fonts/sceptica-webfont.eot");
+  src: url("../fonts/sceptica-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sceptica-webfont.woff") format("woff"), url("../fonts/sceptica-webfont.ttf") format("truetype"), url("../fonts/sceptica-webfont.svg#adex") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/helveticaneue-roman.eot");
+  src: url("../fonts/helveticaneue-roman.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneue-roman.woff") format("woff"), url("../fonts/helveticaneue-roman.ttf") format("truetype"), url("../fonts/helveticaneue-roman.svg#adex") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/helveticaneuethin.eot");
+  src: url("../fonts/helveticaneuethin.eot?#iefix") format("embedded-opentype"), url("../fonts/helveticaneuethin.woff") format("woff"), url("../fonts/helveticaneuethin.ttf") format("truetype"), url("../fonts/helveticaneuethin.svg#adex") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
